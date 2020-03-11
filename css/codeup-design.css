@@ -6,7 +6,7 @@
     height: 125px;
     width: 100%;
     background-color: white;
-    margin: 50px 0;
+    margin: 50px 0 30px 0;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -17,13 +17,32 @@
     padding: 0;
 }
 
-#header {
-
-}
 
 img {
     height: 200px;
     display: flex;
     justify-content: center;
+
+}
+
+
+ #header-1 {
+    font-size: 53px;
+    font-family: 'Abel', sans-serif;
+}
+
+.first-List {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 48px;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+.header-2 {
+    font-family: 'Anton' , sans-serif;
+    font-size: 53px;
 
 }
