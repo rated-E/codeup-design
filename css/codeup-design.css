@@ -1,7 +1,7 @@
 
 
 
-.container {
+.body {
     background-color: #f0f0f0;
 }
 
@@ -123,3 +123,18 @@ img {
  }
 
 
+.circle-sm {
+    width: 120px;
+    height: 120px;
+    border: solid 8px white;
+    margin: 5px;
+    color: white;
+    font-family: 'Anton' , sans-serif;
+    font-size: 23px;
+}
+
+.header-2-sm {
+    font-family: 'Anton' , sans-serif;
+    font-size: 20px;
+
+}
