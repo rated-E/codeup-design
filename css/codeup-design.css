@@ -1,3 +1,6 @@
+
+
+
 .container {
     background-color: #f0f0f0;
 }
@@ -119,3 +122,18 @@ img {
     margin-bottom: 40px;
  }
 
+
+
+
+
+
+
+
+@include media-breakpoint-up(xs) {  }
+@include media-breakpoint-up(sm) {
+
+
+}
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
