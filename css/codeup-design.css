@@ -1,8 +1,15 @@
 
+body {
+
+    margin: auto;
+    padding: 0;
+background-color: #f0f0f0;
+}
 
 
-.body {
+.container {
     background-color: #f0f0f0;
+
 }
 
 #rectangle {
@@ -137,4 +144,27 @@ img {
     font-family: 'Anton' , sans-serif;
     font-size: 20px;
 
+}
+
+hr {
+    width: 85%;
+    border-width: 2px;
+}
+
+.img-sm {
+    max-width: 20px;
+    height: auto;
+    padding: 0;
+}
+
+.col-sm-6 {
+    padding: 0;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .header-4 {
+        padding: 0px;
+        font-size: 15px;
+    }
 }
