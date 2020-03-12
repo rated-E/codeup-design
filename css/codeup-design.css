@@ -47,6 +47,10 @@ img {
 
 }
 
+#header-2-margin {
+    margin-top: 41px;
+}
+
 .header-3 {
     font-family: 'Anton' , sans-serif;
 }
@@ -94,14 +98,24 @@ img {
 
 .header-5 {
     font-family: 'Abel' , sans-serif;
-    font-size: 20px;
-    margin: 0;
+    font-size: 14px;
+    margin: 0 0 0 23px;
+
 }
 
 .circle-small {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     color: black;
     font-family: 'Anton' , sans-serif;
-    font-size: 12px;
+    font-size: 9px;
+    margin: 4px;
 }
+
+.bottom-circles {
+    padding: 7px;
+
+}.bottom-footer {
+    margin-bottom: 40px;
+ }
+
