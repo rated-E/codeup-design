@@ -178,6 +178,7 @@ hr {
 
     .img-lg-1 {
         width: 250px;
+        height: auto;
     }
 
     .img-lg-2 {
