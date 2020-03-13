@@ -121,7 +121,7 @@ img {
 }
 
 .bottom-circles {
-    padding: 7px;
+
 
 }.bottom-footer {
     margin-bottom: 40px;
@@ -161,15 +161,17 @@ hr {
 
 }
 
+.img-sm {
+    width: 250px;
+}
 
+@include media-breakpoint-only(sm) {
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-
+}
     .header-4 {
         padding: 0px;
         font-size: 15px;
     }
-}
 
 
 
