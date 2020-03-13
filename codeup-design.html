@@ -259,9 +259,9 @@
             </div>
     </div>
 
-<!--    -->
+<!--  this is the one that displays on size sm  -->
 
-    <div class="d-none d-sm-block">
+    <div class="d-none d-sm-block d-md-none">
         <div class="row d-flex justify-content-around">
             <img class="logo-2 img-sm" src="imgs/images/man.jpg" alt="apple">
             <img class="logo-2 img-sm" src="imgs/images/security.jpg" alt="apple">
@@ -269,25 +269,36 @@
         </div>
     </div>
 
-<!---->
+<!---- this displays on size md     --->
 
-    <div class="d-none d-sm-block">
+    <div class="d-none d-md-block">
     <div class="row d-flex justify-content-around">
                 <img class="logo-2 img-sm" src="imgs/images/man.jpg" alt="apple">
                 <img class="logo-2 img-sm" src="imgs/images/security.jpg" alt="apple">
 
-                <div class="d-none d-md-block">
-                    <p6>LAST TWEET</p6>
-                    <br>
-                    <p>Lorum etc.</p>
-                </div>
+
+        <ul class="list-unstyled d-flex flex-column">
+        <li class="media">
+            <img src="imgs/images/twitter-logo-A84FE9258E-seeklogo.com.png" class="mr-3 img-lg-2" alt="twitter icon">
+            <div class="media-body pt-4 pb-0">
+                LAST TWEET
+            </div>
+        </li>
+            <li>
+                <p>
+                Lorem stuff
+            </p>
+            </li>
+        </ul>
+
 
             </div>
         </div>
 
-<!--    -->
 
-   <div class="d-none d-sm-block">
+<!--    this is for size sm only-->
+
+   <div class="d-none d-sm-block d-md-none">
     <div class="row  mt-2 d-flex justify-content-around flex-wrap bottom-footer">
             <h3 class="header-5">
                 Featured Project
@@ -309,6 +320,33 @@
             </ul>
     </div>
    </div>
+
+
+<!--       this is for size md -->
+
+       <div class="d-none d-md-block">
+           <div class="row  mt-2 d-flex justify-content-start flex-wrap bottom-footer">
+               <h3 class="header-5">
+                   Featured Project
+               </h3>
+               <ul class="d-flex p-0">
+                   <li class="rounded-circle circle-5 circle-small d-flex justify-content-center align-items-center">D</li>
+                   <li class="rounded-circle circle-6 circle-small d-flex justify-content-center align-items-center">D</li>
+                   <li class="rounded-circle circle-7 circle-small d-flex justify-content-center align-items-center">S</li>
+                   <li class="rounded-circle circle-8 circle-small d-flex justify-content-center align-items-center">H</li>
+               </ul>
+               <h3 class="header-5">
+                   Featured Project
+               </h3>
+               <ul class="d-flex p-0">
+                   <li class="rounded-circle circle-5 circle-small d-flex justify-content-center align-items-center">D</li>
+                   <li class="rounded-circle circle-6 circle-small d-flex justify-content-center align-items-center">D</li>
+                   <li class="rounded-circle circle-7 circle-small d-flex justify-content-center align-items-center">S</li>
+                   <li class="rounded-circle circle-8 circle-small d-flex justify-content-center align-items-center">H</li>
+               </ul>
+           </div>
+
+       </div>
 
     <!--hide a lot elements for xs and s sizes
     reformat the bottom of the md size a lot
